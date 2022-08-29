@@ -16,7 +16,7 @@ int main(int argc, char** argv)
     }
     
     Mat gray_image;
-    resize(image, gray_image, cv::Size(image.cols * 0.8, image.rows * 0.8), 0, 0, INTER_LINEAR);
+    resize(image, gray_image, cv::Size(image.cols * 0.8, image.rows * 0.8), 0, 0, INTER_LINEAR); // resize image to 0.8x of orig image
     cvtColor(gray_image, gray_image, COLOR_BGR2GRAY);             
     const char* ASCII = "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\\|()1{}[]?-_+~<>i!lI;:,\" ^ `'. ";
     int shades = 255 / strlen(ASCII);
