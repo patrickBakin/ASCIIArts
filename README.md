@@ -1,5 +1,5 @@
 # ASCIIArts
-convert an image into array of ASCII chars then draw it on notepad
+converting an image into array of ASCII chars then draw it on notepad
 
 Example 
 ![alt text](https://github.com/patrickBakin/ASCIIArts/blob/main/art1.PNG?raw=true)
